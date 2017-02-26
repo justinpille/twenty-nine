@@ -12,8 +12,7 @@ class Hand extends Component {
                 key={i}
                 className="card self"
               >
-                <div className="card name">{card.name}</div>
-                <div className="card suit">{card.suit}</div>
+                <img src={card.img} alt=""/>
               </div>
             )
           })
