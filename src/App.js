@@ -30,6 +30,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(myDeck)
     return (
       <div className="app">
         <h1>Twenty Nine</h1>
